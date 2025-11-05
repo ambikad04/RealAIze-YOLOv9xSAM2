@@ -1,0 +1,6 @@
+names:
+  0: milton_bottle
+nc: 1
+path: D:\YOLO\milton_dataset
+train: images/train
+val: images/val

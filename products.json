@@ -1,0 +1,110 @@
+{
+    "products": [
+        {
+            "product_id": "BOTTLE_001",
+            "company_name": "AquaPure",
+            "product_name": "Mineral Water 1L",
+            "price": 20.0,
+            "image_paths": [
+                "products/aquapure_1l_front.jpg",
+                "products/aquapure_1l_side.jpg",
+                "products/aquapure_1l_back.jpg"
+            ],
+            "metadata": {
+                "type": "Water Bottle",
+                "capacity": "1 Liter",
+                "material": "PET",
+                "features": ["BPA Free", "Recyclable"],
+                "shelf_position": "A1"
+            }
+        },
+        {
+            "product_id": "BOTTLE_002",
+            "company_name": "Sparkle",
+            "product_name": "Sparkling Water 750ml",
+            "price": 35.0,
+            "image_paths": [
+                "products/sparkle_750ml_front.jpg",
+                "products/sparkle_750ml_side.jpg",
+                "products/sparkle_750ml_back.jpg"
+            ],
+            "metadata": {
+                "type": "Sparkling Water",
+                "capacity": "750ml",
+                "material": "Glass",
+                "features": ["Carbonated", "Premium"],
+                "shelf_position": "A2"
+            }
+        },
+        {
+            "product_id": "BOTTLE_003",
+            "company_name": "VitaFresh",
+            "product_name": "Orange Juice 500ml",
+            "price": 45.0,
+            "image_paths": [
+                "products/vitafresh_500ml_front.jpg",
+                "products/vitafresh_500ml_side.jpg",
+                "products/vitafresh_500ml_back.jpg"
+            ],
+            "metadata": {
+                "type": "Juice Bottle",
+                "capacity": "500ml",
+                "material": "PET",
+                "features": ["100% Natural", "No Added Sugar"],
+                "shelf_position": "B1"
+            }
+        },
+        {
+            "product_id": "BOTTLE_004",
+            "company_name": "GreenLife",
+            "product_name": "Green Tea 1L",
+            "price": 55.0,
+            "image_paths": [
+                "products/greenlife_1l_front.jpg",
+                "products/greenlife_1l_side.jpg",
+                "products/greenlife_1l_back.jpg"
+            ],
+            "metadata": {
+                "type": "Tea Bottle",
+                "capacity": "1 Liter",
+                "material": "PET",
+                "features": ["Antioxidants", "Zero Calories"],
+                "shelf_position": "B2"
+            }
+        },
+        {
+            "product_id": "BOTTLE_005",
+            "company_name": "EnergyMax",
+            "product_name": "Energy Drink 250ml",
+            "price": 40.0,
+            "image_paths": [
+                "products/energymax_250ml_front.jpg",
+                "products/energymax_250ml_side.jpg",
+                "products/energymax_250ml_back.jpg"
+            ],
+            "metadata": {
+                "type": "Energy Drink",
+                "capacity": "250ml",
+                "material": "Aluminum",
+                "features": ["Caffeine", "B Vitamins"],
+                "shelf_position": "C1"
+            }
+        },
+        {
+            "product_id": "BOTTLE_006",
+            "company_name": "Milton",
+            "product_name": "Milton Water Bottle",
+            "price": 250.0,
+            "image_paths": [
+                "test_image.jpg"
+            ],
+            "metadata": {
+                "type": "Water Bottle",
+                "capacity": "1 Liter",
+                "material": "Stainless Steel",
+                "features": ["Insulated", "BPA Free", "Durable"],
+                "shelf_position": "D1"
+            }
+        }
+    ]
+} 

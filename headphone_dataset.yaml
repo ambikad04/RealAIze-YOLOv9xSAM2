@@ -1,0 +1,11 @@
+path: ./headphone_dataset  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Classes
+names:
+  0: headphone
+  1: bottle
+
+# Number of classes
+nc: 2 

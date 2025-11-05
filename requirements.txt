@@ -1,0 +1,35 @@
+# Core dependencies
+numpy>=1.20.0
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.5.0
+ultralytics>=8.0.0
+supervision>=0.1.0
+
+# Model dependencies
+transformers>=4.36.2
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+huggingface-hub>=0.19.4
+
+# Optimization
+onnx>=1.15.0
+onnxruntime-gpu>=1.16.0
+onnxsim>=0.4.33
+
+# Image processing
+Pillow>=10.0.0
+
+# Utilities
+tqdm>=4.65.0
+PyYAML>=6.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Additional dependencies
+protobuf>=4.25.1
+importlib-metadata>=6.0.0
+cmake>=3.25.0
+setuptools>=69.0.0
+wheel>=0.42.0
+flask>=2.0.0 

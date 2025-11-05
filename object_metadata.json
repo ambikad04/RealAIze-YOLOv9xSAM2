@@ -1,0 +1,752 @@
+{
+    "person": {
+        "price": "N/A",
+        "description": "Human being",
+        "category": "Living Being",
+        "details": {
+            "type": "Human",
+            "average_height": "170 cm",
+            "lifespan": "70-80 years"
+        }
+    },
+    "car": {
+        "price": "800000",
+        "description": "Four-wheeled motor vehicle",
+        "category": "Vehicle",
+        "details": {
+            "type": "Automobile",
+            "fuel_types": ["Petrol", "Diesel", "Electric"],
+            "average_speed": "60-120 km/h"
+        }
+    },
+    "bicycle": {
+        "price": "15000",
+        "description": "Two-wheeled human-powered vehicle",
+        "category": "Vehicle",
+        "details": {
+            "type": "Manual Transport",
+            "weight": "10-15 kg",
+            "speed": "15-30 km/h"
+        }
+    },
+    "motorcycle": {
+        "price": "120000",
+        "description": "Two-wheeled motor vehicle",
+        "category": "Vehicle",
+        "details": {
+            "type": "Motorized Transport",
+            "fuel_types": ["Petrol"],
+            "average_speed": "60-100 km/h"
+        }
+    },
+    "bus": {
+        "price": "2500000",
+        "description": "Large motor vehicle for public transport",
+        "category": "Vehicle",
+        "details": {
+            "type": "Public Transport",
+            "capacity": "30-50 passengers",
+            "fuel_types": ["Diesel", "CNG"]
+        }
+    },
+    "truck": {
+        "price": "3500000",
+        "description": "Large motor vehicle for transporting goods",
+        "category": "Vehicle",
+        "details": {
+            "type": "Commercial Vehicle",
+            "capacity": "5-20 tons",
+            "fuel_types": ["Diesel"]
+        }
+    },
+    "traffic light": {
+        "price": "50000",
+        "description": "Signal for controlling traffic",
+        "category": "Infrastructure",
+        "details": {
+            "type": "Traffic Control",
+            "colors": ["Red", "Yellow", "Green"],
+            "power": "LED"
+        }
+    },
+    "stop sign": {
+        "price": "5000",
+        "description": "Traffic sign indicating stop",
+        "category": "Infrastructure",
+        "details": {
+            "type": "Traffic Sign",
+            "shape": "Octagon",
+            "color": "Red"
+        }
+    },
+    "bench": {
+        "price": "15000",
+        "description": "Long seat for multiple people",
+        "category": "Furniture",
+        "details": {
+            "type": "Outdoor Furniture",
+            "material": "Wood/Metal",
+            "capacity": "3-4 people"
+        }
+    },
+    "bird": {
+        "price": "N/A",
+        "description": "Winged animal",
+        "category": "Animal",
+        "details": {
+            "type": "Wildlife",
+            "habitat": "Various",
+            "diet": "Omnivorous"
+        }
+    },
+    "cat": {
+        "price": "5000",
+        "description": "Domestic feline pet",
+        "category": "Pet",
+        "details": {
+            "type": "Domestic Animal",
+            "lifespan": "12-15 years",
+            "diet": "Carnivorous"
+        }
+    },
+    "dog": {
+        "price": "15000",
+        "description": "Domestic canine pet",
+        "category": "Pet",
+        "details": {
+            "type": "Domestic Animal",
+            "lifespan": "10-13 years",
+            "diet": "Omnivorous"
+        }
+    },
+    "horse": {
+        "price": "100000",
+        "description": "Large domesticated mammal",
+        "category": "Animal",
+        "details": {
+            "type": "Domestic Animal",
+            "lifespan": "25-30 years",
+            "diet": "Herbivorous"
+        }
+    },
+    "sheep": {
+        "price": "25000",
+        "description": "Domesticated ruminant mammal",
+        "category": "Animal",
+        "details": {
+            "type": "Livestock",
+            "lifespan": "10-12 years",
+            "diet": "Herbivorous"
+        }
+    },
+    "cow": {
+        "price": "50000",
+        "description": "Domesticated bovine animal",
+        "category": "Animal",
+        "details": {
+            "type": "Livestock",
+            "lifespan": "18-22 years",
+            "diet": "Herbivorous"
+        }
+    },
+    "elephant": {
+        "price": "N/A",
+        "description": "Large land mammal with trunk",
+        "category": "Wildlife",
+        "details": {
+            "type": "Wild Animal",
+            "lifespan": "60-70 years",
+            "diet": "Herbivorous"
+        }
+    },
+    "bear": {
+        "price": "N/A",
+        "description": "Large omnivorous mammal",
+        "category": "Wildlife",
+        "details": {
+            "type": "Wild Animal",
+            "lifespan": "20-30 years",
+            "diet": "Omnivorous"
+        }
+    },
+    "zebra": {
+        "price": "N/A",
+        "description": "African equine with black and white stripes",
+        "category": "Wildlife",
+        "details": {
+            "type": "Wild Animal",
+            "lifespan": "25-30 years",
+            "diet": "Herbivorous"
+        }
+    },
+    "giraffe": {
+        "price": "N/A",
+        "description": "Tall African mammal with long neck",
+        "category": "Wildlife",
+        "details": {
+            "type": "Wild Animal",
+            "lifespan": "20-25 years",
+            "diet": "Herbivorous"
+        }
+    },
+    "backpack": {
+        "price": "2000",
+        "description": "Bag carried on the back",
+        "category": "Accessory",
+        "details": {
+            "type": "Bag",
+            "capacity": "20-30 liters",
+            "material": "Nylon/Canvas"
+        }
+    },
+    "umbrella": {
+        "price": "500",
+        "description": "Device for protection from rain",
+        "category": "Accessory",
+        "details": {
+            "type": "Weather Protection",
+            "material": "Nylon/Steel",
+            "size": "Medium"
+        }
+    },
+    "handbag": {
+        "price": "3000",
+        "description": "Small bag carried by hand",
+        "category": "Accessory",
+        "details": {
+            "type": "Bag",
+            "capacity": "5-10 liters",
+            "material": "Leather/Synthetic"
+        }
+    },
+    "tie": {
+        "price": "1000",
+        "description": "Long piece of cloth worn around neck",
+        "category": "Clothing",
+        "details": {
+            "type": "Accessory",
+            "material": "Silk/Polyester",
+            "length": "145-150 cm"
+        }
+    },
+    "suitcase": {
+        "price": "5000",
+        "description": "Large case for carrying clothes",
+        "category": "Luggage",
+        "details": {
+            "type": "Travel Bag",
+            "capacity": "60-80 liters",
+            "material": "Hard Shell/Soft Shell"
+        }
+    },
+    "frisbee": {
+        "price": "300",
+        "description": "Plastic disc for throwing",
+        "category": "Sports",
+        "details": {
+            "type": "Sports Equipment",
+            "diameter": "20-25 cm",
+            "material": "Plastic"
+        }
+    },
+    "skis": {
+        "price": "25000",
+        "description": "Long narrow strips for gliding on snow",
+        "category": "Sports",
+        "details": {
+            "type": "Winter Sports",
+            "length": "160-180 cm",
+            "material": "Fiberglass/Carbon"
+        }
+    },
+    "snowboard": {
+        "price": "20000",
+        "description": "Board for gliding on snow",
+        "category": "Sports",
+        "details": {
+            "type": "Winter Sports",
+            "length": "150-160 cm",
+            "material": "Wood/Core"
+        }
+    },
+    "sports ball": {
+        "price": "500",
+        "description": "Ball used in various sports",
+        "category": "Sports",
+        "details": {
+            "type": "Sports Equipment",
+            "size": "Standard",
+            "material": "Rubber/Leather"
+        }
+    },
+    "kite": {
+        "price": "200",
+        "description": "Light frame covered with paper/fabric",
+        "category": "Toy",
+        "details": {
+            "type": "Outdoor Toy",
+            "material": "Paper/Plastic",
+            "size": "Medium"
+        }
+    },
+    "baseball bat": {
+        "price": "2000",
+        "description": "Wooden/metal bat for baseball",
+        "category": "Sports",
+        "details": {
+            "type": "Sports Equipment",
+            "length": "80-90 cm",
+            "material": "Wood/Aluminum"
+        }
+    },
+    "baseball glove": {
+        "price": "1500",
+        "description": "Leather glove for catching baseball",
+        "category": "Sports",
+        "details": {
+            "type": "Sports Equipment",
+            "size": "Standard",
+            "material": "Leather"
+        }
+    },
+    "skateboard": {
+        "price": "4000",
+        "description": "Board with wheels for skating",
+        "category": "Sports",
+        "details": {
+            "type": "Sports Equipment",
+            "length": "80-85 cm",
+            "material": "Wood/Plastic"
+        }
+    },
+    "surfboard": {
+        "price": "30000",
+        "description": "Board for riding waves",
+        "category": "Sports",
+        "details": {
+            "type": "Water Sports",
+            "length": "180-210 cm",
+            "material": "Fiberglass/Foam"
+        }
+    },
+    "tennis racket": {
+        "price": "3000",
+        "description": "Racket for playing tennis",
+        "category": "Sports",
+        "details": {
+            "type": "Sports Equipment",
+            "size": "Standard",
+            "material": "Graphite/Aluminum"
+        }
+    },
+    "bottle": {
+        "price": "100",
+        "description": "Container for liquids",
+        "category": "Container",
+        "details": {
+            "type": "Storage",
+            "capacity": "500ml-1L",
+            "material": "Plastic/Glass"
+        }
+    },
+    "wine glass": {
+        "price": "500",
+        "description": "Glass for drinking wine",
+        "category": "Tableware",
+        "details": {
+            "type": "Drinking Vessel",
+            "capacity": "150-200ml",
+            "material": "Glass"
+        }
+    },
+    "cup": {
+        "price": "200",
+        "description": "Small container for drinking",
+        "category": "Tableware",
+        "details": {
+            "type": "Drinking Vessel",
+            "capacity": "200-300ml",
+            "material": "Ceramic/Plastic"
+        }
+    },
+    "fork": {
+        "price": "100",
+        "description": "Utensil with prongs for eating",
+        "category": "Tableware",
+        "details": {
+            "type": "Cutlery",
+            "material": "Stainless Steel",
+            "length": "20-25 cm"
+        }
+    },
+    "knife": {
+        "price": "150",
+        "description": "Utensil with blade for cutting",
+        "category": "Tableware",
+        "details": {
+            "type": "Cutlery",
+            "material": "Stainless Steel",
+            "length": "20-25 cm"
+        }
+    },
+    "spoon": {
+        "price": "100",
+        "description": "Utensil with shallow bowl for eating",
+        "category": "Tableware",
+        "details": {
+            "type": "Cutlery",
+            "material": "Stainless Steel",
+            "length": "20-25 cm"
+        }
+    },
+    "bowl": {
+        "price": "300",
+        "description": "Round container for food",
+        "category": "Tableware",
+        "details": {
+            "type": "Container",
+            "capacity": "500ml-1L",
+            "material": "Ceramic/Plastic"
+        }
+    },
+    "banana": {
+        "price": "40",
+        "description": "Yellow curved fruit",
+        "category": "Food",
+        "details": {
+            "type": "Fruit",
+            "nutrition": "High in Potassium",
+            "origin": "Tropical"
+        }
+    },
+    "apple": {
+        "price": "30",
+        "description": "Round red/green fruit",
+        "category": "Food",
+        "details": {
+            "type": "Fruit",
+            "nutrition": "High in Fiber",
+            "origin": "Temperate"
+        }
+    },
+    "sandwich": {
+        "price": "50",
+        "description": "Food item with fillings between bread",
+        "category": "Food",
+        "details": {
+            "type": "Fast Food",
+            "calories": "300-400",
+            "serving": "1 portion"
+        }
+    },
+    "orange": {
+        "price": "20",
+        "description": "Round citrus fruit",
+        "category": "Food",
+        "details": {
+            "type": "Fruit",
+            "nutrition": "High in Vitamin C",
+            "origin": "Tropical"
+        }
+    },
+    "broccoli": {
+        "price": "40",
+        "description": "Green vegetable with florets",
+        "category": "Food",
+        "details": {
+            "type": "Vegetable",
+            "nutrition": "High in Fiber",
+            "origin": "Mediterranean"
+        }
+    },
+    "carrot": {
+        "price": "30",
+        "description": "Orange root vegetable",
+        "category": "Food",
+        "details": {
+            "type": "Vegetable",
+            "nutrition": "High in Vitamin A",
+            "origin": "Central Asia"
+        }
+    },
+    "hot dog": {
+        "price": "60",
+        "description": "Sausage in a bun",
+        "category": "Food",
+        "details": {
+            "type": "Fast Food",
+            "calories": "250-300",
+            "serving": "1 portion"
+        }
+    },
+    "pizza": {
+        "price": "300",
+        "description": "Flat bread with toppings",
+        "category": "Food",
+        "details": {
+            "type": "Fast Food",
+            "calories": "800-1000",
+            "serving": "1 medium"
+        }
+    },
+    "donut": {
+        "price": "30",
+        "description": "Sweet fried dough",
+        "category": "Food",
+        "details": {
+            "type": "Dessert",
+            "calories": "200-300",
+            "serving": "1 piece"
+        }
+    },
+    "cake": {
+        "price": "500",
+        "description": "Sweet baked dessert",
+        "category": "Food",
+        "details": {
+            "type": "Dessert",
+            "calories": "300-400",
+            "serving": "1 slice"
+        }
+    },
+    "chair": {
+        "price": "2000",
+        "description": "Furniture for sitting",
+        "category": "Furniture",
+        "details": {
+            "type": "Seating",
+            "material": "Wood/Metal",
+            "capacity": "1 person"
+        }
+    },
+    "couch": {
+        "price": "25000",
+        "description": "Long upholstered seat",
+        "category": "Furniture",
+        "details": {
+            "type": "Seating",
+            "material": "Fabric/Leather",
+            "capacity": "3-4 people"
+        }
+    },
+    "potted plant": {
+        "price": "1000",
+        "description": "Plant in a container",
+        "category": "Decoration",
+        "details": {
+            "type": "Indoor Plant",
+            "care": "Moderate",
+            "size": "Medium"
+        }
+    },
+    "bed": {
+        "price": "15000",
+        "description": "Furniture for sleeping",
+        "category": "Furniture",
+        "details": {
+            "type": "Sleeping",
+            "size": "Queen/King",
+            "material": "Wood/Metal"
+        }
+    },
+    "dining table": {
+        "price": "20000",
+        "description": "Table for eating meals",
+        "category": "Furniture",
+        "details": {
+            "type": "Table",
+            "size": "6-8 seats",
+            "material": "Wood/Glass"
+        }
+    },
+    "toilet": {
+        "price": "15000",
+        "description": "Sanitary fixture",
+        "category": "Bathroom",
+        "details": {
+            "type": "Sanitary",
+            "material": "Ceramic",
+            "style": "Modern"
+        }
+    },
+    "tv": {
+        "price": "30000",
+        "description": "Television set",
+        "category": "Electronics",
+        "details": {
+            "type": "Display",
+            "size": "40-55 inch",
+            "technology": "LED/LCD"
+        }
+    },
+    "laptop": {
+        "price": "50000",
+        "description": "Portable computer",
+        "category": "Electronics",
+        "details": {
+            "type": "Computer",
+            "size": "13-15 inch",
+            "processor": "Intel/AMD"
+        }
+    },
+    "mouse": {
+        "price": "1000",
+        "description": "Computer pointing device",
+        "category": "Electronics",
+        "details": {
+            "type": "Peripheral",
+            "connectivity": "Wireless/Wired",
+            "buttons": "2-3"
+        }
+    },
+    "remote": {
+        "price": "500",
+        "description": "Device for controlling electronics",
+        "category": "Electronics",
+        "details": {
+            "type": "Control",
+            "battery": "AA/AAA",
+            "range": "10-15 meters"
+        }
+    },
+    "keyboard": {
+        "price": "2000",
+        "description": "Computer input device",
+        "category": "Electronics",
+        "details": {
+            "type": "Peripheral",
+            "connectivity": "Wireless/Wired",
+            "layout": "QWERTY"
+        }
+    },
+    "cell phone": {
+        "price": "15000",
+        "description": "Mobile communication device",
+        "category": "Electronics",
+        "details": {
+            "type": "Mobile Device",
+            "screen": "6-7 inch",
+            "battery": "4000-5000 mAh"
+        }
+    },
+    "microwave": {
+        "price": "8000",
+        "description": "Kitchen appliance for heating food",
+        "category": "Appliances",
+        "details": {
+            "type": "Kitchen Appliance",
+            "capacity": "20-30 liters",
+            "power": "700-1000W"
+        }
+    },
+    "oven": {
+        "price": "25000",
+        "description": "Kitchen appliance for baking",
+        "category": "Appliances",
+        "details": {
+            "type": "Kitchen Appliance",
+            "capacity": "40-50 liters",
+            "power": "2000-3000W"
+        }
+    },
+    "toaster": {
+        "price": "2000",
+        "description": "Kitchen appliance for toasting bread",
+        "category": "Appliances",
+        "details": {
+            "type": "Kitchen Appliance",
+            "slots": "2-4",
+            "power": "800-1000W"
+        }
+    },
+    "sink": {
+        "price": "5000",
+        "description": "Basin for washing",
+        "category": "Kitchen",
+        "details": {
+            "type": "Fixture",
+            "material": "Stainless Steel",
+            "style": "Modern"
+        }
+    },
+    "refrigerator": {
+        "price": "30000",
+        "description": "Appliance for cooling food",
+        "category": "Appliances",
+        "details": {
+            "type": "Kitchen Appliance",
+            "capacity": "300-400 liters",
+            "type": "Double Door"
+        }
+    },
+    "book": {
+        "price": "500",
+        "description": "Written or printed work",
+        "category": "Stationery",
+        "details": {
+            "type": "Reading Material",
+            "pages": "200-300",
+            "format": "Hardcover/Paperback"
+        }
+    },
+    "clock": {
+        "price": "2000",
+        "description": "Device for measuring time",
+        "category": "Decoration",
+        "details": {
+            "type": "Timepiece",
+            "style": "Wall/Table",
+            "power": "Battery/Mechanical"
+        }
+    },
+    "vase": {
+        "price": "1000",
+        "description": "Container for flowers",
+        "category": "Decoration",
+        "details": {
+            "type": "Ornament",
+            "material": "Ceramic/Glass",
+            "height": "20-30 cm"
+        }
+    },
+    "scissors": {
+        "price": "200",
+        "description": "Tool for cutting",
+        "category": "Tools",
+        "details": {
+            "type": "Cutting Tool",
+            "material": "Stainless Steel",
+            "length": "15-20 cm"
+        }
+    },
+    "teddy bear": {
+        "price": "1000",
+        "description": "Stuffed toy bear",
+        "category": "Toy",
+        "details": {
+            "type": "Stuffed Animal",
+            "material": "Plush",
+            "size": "Medium"
+        }
+    },
+    "hair drier": {
+        "price": "2000",
+        "description": "Device for drying hair",
+        "category": "Appliances",
+        "details": {
+            "type": "Personal Care",
+            "power": "1000-2000W",
+            "settings": "Multiple"
+        }
+    },
+    "toothbrush": {
+        "price": "100",
+        "description": "Tool for cleaning teeth",
+        "category": "Personal Care",
+        "details": {
+            "type": "Dental Care",
+            "type": "Manual/Electric",
+            "bristles": "Soft/Medium"
+        }
+    }
+} 
