@@ -1,4 +1,4 @@
-# Smart Retail Object Detection System
+# RealAIze - Smart Retail Object Detection System
 
 This project implements a comprehensive smart retail solution using YOLOv8 for object detection, with features for product recognition, inventory tracking, and real-time monitoring. The system includes both single-object and multi-object detection capabilities, along with a web interface for easy interaction.
 
